@@ -53,18 +53,14 @@ for(var i=0;i<=cities.length;i++){
 
    if(cities[i]==='???'){ 
 
-    cities.splice(3,1,"Oops!");
-    cities.splice(8,1,"Oops!");
+    cities.splice(i,1,"Oops!");
   
 }
  
   if(countries[i]==='???'){
 
-    countries.splice(3,1,"Oops!");
-    countries.splice(8,1,"Oops!"); 
+    countries.splice(i,1,"Oops!"); 
 
 }
         console.log(cities[i]+" - "+countries[i]);
-
-   
   }
